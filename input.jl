@@ -6,9 +6,8 @@ function wrinput()
 	# Initializing
 	print("Which game? ")
 	game = readline()
-	print("\nHow many players? ")
+	print("How many players? ")
 	playerNum = parse(Int, readline())
-	print("\n")
 	wlist = Array{Any}(missing, (playerNum, 2))
 
 
